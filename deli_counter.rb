@@ -12,6 +12,7 @@ def line(katz_deli)
 end
       
 def take_a_number(katz_deli, person)
-  puts 
+  katz_deli.concat(#{person})
+  puts katz_deli[-1]
    
   
