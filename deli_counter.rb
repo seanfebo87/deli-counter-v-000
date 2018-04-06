@@ -1,11 +1,9 @@
-katz_deli=[]
 def line(people)
- if people.length > 0 
-   people.each do |line|
-    puts "The line is currently: 1. #{line}"
-    end
-  else
-    puts "The line is currently empty."
-  end
-end
+ if people.length == 0 
+   return "The line is currently empty."
+  elsif people.length > 0 
+    current_line = "The line is currently:"
+    people.each_with_index do |line, index|
+      
+   
   
