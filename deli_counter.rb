@@ -3,8 +3,8 @@ def line(people)
    return "The line is currently empty."
   elsif people.length > 0 
     current_line = "The line is currently:"
-    people.each_with_index(1) do |line, index|
-      current_line.push(#{index}. )
+    people.each_with_index(1) do |person, index|
+      current_line.push(" #{index}. #{person}")
       
       
    
