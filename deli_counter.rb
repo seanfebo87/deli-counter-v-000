@@ -5,6 +5,8 @@ def line(people)
     current_line = "The line is currently:"
     people.each_with_index(1) do |person, index|
       current_line.push(" #{index}. #{person}")
+    end 
+  return 
       
       
    
