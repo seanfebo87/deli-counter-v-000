@@ -13,5 +13,6 @@ end
       
 def take_a_number(katz_deli, person)
   katz_deli.concat(#{person})
+  end
   puts katz_deli[-1]
 end
