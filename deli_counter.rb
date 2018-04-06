@@ -13,5 +13,5 @@ end
       
 def take_a_number(katz_deli, person)
   katz_deli.push(person)
-  puts "Welcome #{person}."
+  puts "Welcome, #{person}. You are # "
 end
