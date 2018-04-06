@@ -12,6 +12,6 @@ def line(katz_deli)
 end
       
 def take_a_number(katz_deli, person)
-  katz_deli.concat(person)
+  katz_deli.push(person)
   puts "Welcome #{person}."
 end
